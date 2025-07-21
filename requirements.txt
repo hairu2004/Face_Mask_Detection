@@ -1,9 +1,8 @@
 streamlit
 opencv-python
-tensorflow
+tensorflow==2.12.0
 keras
 numpy
 pillow
 matplotlib
 scikit-learn
-requests
