@@ -1,5 +1,9 @@
 streamlit
 opencv-python
 tensorflow
-Pillow
+keras
 numpy
+pillow
+matplotlib
+scikit-learn
+requests
