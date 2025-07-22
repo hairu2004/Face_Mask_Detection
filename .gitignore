@@ -1,0 +1,9 @@
+# Ignore virtual environment
+mask-env/
+
+
+.ipynb_checkpoints/
+# Ignore dataset folders
+archive/
+
+
