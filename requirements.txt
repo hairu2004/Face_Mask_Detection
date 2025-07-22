@@ -1,5 +1,5 @@
 streamlit==1.27.2
-tensorflow==2.12.0
+tensorflow==2.10.1  # Known working version with Python 3.10
 opencv-python-headless==4.7.0.72
-numpy
-Pillow
+numpy==1.23.5  # Add specific version to avoid conflicts
+Pillow==9.5.0
