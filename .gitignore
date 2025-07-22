@@ -1,9 +1,12 @@
-# Ignore virtual environment
+# Python
+*.pyc
+__pycache__/
+*.ipynb_checkpoints/
+
+# Virtual environment
 mask-env/
+venv/
 
-
-.ipynb_checkpoints/
-# Ignore dataset folders
+# Dataset folders
 archive/
-
-
+data/

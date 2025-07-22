@@ -3,7 +3,10 @@ import cv2
 import numpy as np
 import tensorflow as tf
 from PIL import Image
-
+import os
+if not os.path.exists("face_mask_model.h5"):
+    st.error("Model file not found! Please ensure 'face_mask_model.h5' is in the root directory.")
+    st.stop()
 # Load the trained model
 model = tf.keras.models.load_model("face_mask_model.h5")
 
